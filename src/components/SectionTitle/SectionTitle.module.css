@@ -1,0 +1,13 @@
+.background {
+  text-align: center;
+  background: #646464;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 100;
+}
