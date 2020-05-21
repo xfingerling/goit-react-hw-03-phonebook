@@ -7,7 +7,7 @@ const initialState = { name: "", number: "" };
 
 export default class ContactForm extends Component {
   static propTypes = {
-    onAddContact: PropTypes.func,
+    onAddContact: PropTypes.func.isRequired,
   };
 
   state = {

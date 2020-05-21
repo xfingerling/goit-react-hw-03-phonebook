@@ -76,7 +76,7 @@ export default class Phonebook extends Component {
 
     return sortedArr.sort((a, b) => {
       if (a.name < b.name) return -1;
-      if (a.name < b.name) return 1;
+      if (a.name > b.name) return 1;
       return 0;
     });
   };
