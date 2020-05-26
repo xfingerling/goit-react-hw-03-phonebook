@@ -11,8 +11,9 @@ const ContactList = ({ contacts = [], onDelete }) => {
       <ContactListItem
         key={id}
         name={name}
+        id={id}
         number={number}
-        onDelete={() => onDelete(id)}
+        onDelete={onDelete}
       />
     );
   });
